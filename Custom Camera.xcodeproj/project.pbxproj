@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		522BC58A28A2AB9B005790BE /* LayerCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522BC58928A2AB9B005790BE /* LayerCustom.swift */; };
 		522BC58C28A2C05D005790BE /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522BC58B28A2C05D005790BE /* CustomScrollView.swift */; };
-		5277C4F028A2C98E00E8A0AF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5277C4EF28A2C98E00E8A0AF /* README.md */; };
 		6937C6AB76E57E2F142EF751 /* Pods_Custom_Camera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B813C2323E229A501F000416 /* Pods_Custom_Camera.framework */; };
 		730DB2F51FDAB0FA00FEA694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DB2F41FDAB0FA00FEA694 /* AppDelegate.swift */; };
 		730DB2F71FDAB0FA00FEA694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DB2F61FDAB0FA00FEA694 /* ViewController.swift */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		522BC58928A2AB9B005790BE /* LayerCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerCustom.swift; sourceTree = "<group>"; };
 		522BC58B28A2C05D005790BE /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
-		5277C4EF28A2C98E00E8A0AF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		730DB2F11FDAB0FA00FEA694 /* Custom Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		730DB2F41FDAB0FA00FEA694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		730DB2F61FDAB0FA00FEA694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 				730DB2FB1FDAB0FA00FEA694 /* Assets.xcassets */,
 				730DB2FD1FDAB0FA00FEA694 /* LaunchScreen.storyboard */,
 				730DB3001FDAB0FA00FEA694 /* Info.plist */,
-				5277C4EF28A2C98E00E8A0AF /* README.md */,
 			);
 			path = "Custom Camera";
 			sourceTree = "<group>";
@@ -160,7 +157,6 @@
 			files = (
 				730DB2FF1FDAB0FA00FEA694 /* LaunchScreen.storyboard in Resources */,
 				730DB2FC1FDAB0FA00FEA694 /* Assets.xcassets in Resources */,
-				5277C4F028A2C98E00E8A0AF /* README.md in Resources */,
 				730DB2FA1FDAB0FA00FEA694 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
