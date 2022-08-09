@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		522BC58A28A2AB9B005790BE /* LayerCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522BC58928A2AB9B005790BE /* LayerCustom.swift */; };
+		522BC58C28A2C05D005790BE /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522BC58B28A2C05D005790BE /* CustomScrollView.swift */; };
+		5277C4F028A2C98E00E8A0AF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5277C4EF28A2C98E00E8A0AF /* README.md */; };
+		6937C6AB76E57E2F142EF751 /* Pods_Custom_Camera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B813C2323E229A501F000416 /* Pods_Custom_Camera.framework */; };
+		730DB2F51FDAB0FA00FEA694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DB2F41FDAB0FA00FEA694 /* AppDelegate.swift */; };
+		730DB2F71FDAB0FA00FEA694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DB2F61FDAB0FA00FEA694 /* ViewController.swift */; };
+		730DB2FA1FDAB0FA00FEA694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730DB2F81FDAB0FA00FEA694 /* Main.storyboard */; };
+		730DB2FC1FDAB0FA00FEA694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730DB2FB1FDAB0FA00FEA694 /* Assets.xcassets */; };
+		730DB2FF1FDAB0FA00FEA694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730DB2FD1FDAB0FA00FEA694 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		522BC58928A2AB9B005790BE /* LayerCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerCustom.swift; sourceTree = "<group>"; };
+		522BC58B28A2C05D005790BE /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		5277C4EF28A2C98E00E8A0AF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		730DB2F11FDAB0FA00FEA694 /* Custom Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730DB2F41FDAB0FA00FEA694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		730DB2F61FDAB0FA00FEA694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		730DB2F91FDAB0FA00FEA694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		730DB2FB1FDAB0FA00FEA694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730DB2FE1FDAB0FA00FEA694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		730DB3001FDAB0FA00FEA694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748FEDF7EEBBAC965BF9247B /* Pods-Custom Camera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Custom Camera.release.xcconfig"; path = "Target Support Files/Pods-Custom Camera/Pods-Custom Camera.release.xcconfig"; sourceTree = "<group>"; };
+		B813C2323E229A501F000416 /* Pods_Custom_Camera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Custom_Camera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F3F325A37CEB197AAF7DE2 /* Pods-Custom Camera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Custom Camera.debug.xcconfig"; path = "Target Support Files/Pods-Custom Camera/Pods-Custom Camera.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730DB2EE1FDAB0FA00FEA694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6937C6AB76E57E2F142EF751 /* Pods_Custom_Camera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730DB2E81FDAB0FA00FEA694 = {
+			isa = PBXGroup;
+			children = (
+				730DB2F31FDAB0FA00FEA694 /* Custom Camera */,
+				730DB2F21FDAB0FA00FEA694 /* Products */,
+				EDEBC1C137902AC20BD697E6 /* Pods */,
+				FBF954887E094FCEB1056605 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		730DB2F21FDAB0FA00FEA694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730DB2F11FDAB0FA00FEA694 /* Custom Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730DB2F31FDAB0FA00FEA694 /* Custom Camera */ = {
+			isa = PBXGroup;
+			children = (
+				730DB2F41FDAB0FA00FEA694 /* AppDelegate.swift */,
+				522BC58B28A2C05D005790BE /* CustomScrollView.swift */,
+				730DB2F61FDAB0FA00FEA694 /* ViewController.swift */,
+				522BC58928A2AB9B005790BE /* LayerCustom.swift */,
+				730DB2F81FDAB0FA00FEA694 /* Main.storyboard */,
+				730DB2FB1FDAB0FA00FEA694 /* Assets.xcassets */,
+				730DB2FD1FDAB0FA00FEA694 /* LaunchScreen.storyboard */,
+				730DB3001FDAB0FA00FEA694 /* Info.plist */,
+				5277C4EF28A2C98E00E8A0AF /* README.md */,
+			);
+			path = "Custom Camera";
+			sourceTree = "<group>";
+		};
+		EDEBC1C137902AC20BD697E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3F325A37CEB197AAF7DE2 /* Pods-Custom Camera.debug.xcconfig */,
+				748FEDF7EEBBAC965BF9247B /* Pods-Custom Camera.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBF954887E094FCEB1056605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B813C2323E229A501F000416 /* Pods_Custom_Camera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730DB2F01FDAB0FA00FEA694 /* Custom Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730DB3031FDAB0FA00FEA694 /* Build configuration list for PBXNativeTarget "Custom Camera" */;
+			buildPhases = (
+				9082D425CF7BDAC87E945564 /* [CP] Check Pods Manifest.lock */,
+				730DB2ED1FDAB0FA00FEA694 /* Sources */,
+				730DB2EE1FDAB0FA00FEA694 /* Frameworks */,
+				730DB2EF1FDAB0FA00FEA694 /* Resources */,
+				C103ABB9E75A410A7E3435C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom Camera";
+			productName = "Custom Camera";
+			productReference = 730DB2F11FDAB0FA00FEA694 /* Custom Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730DB2E91FDAB0FA00FEA694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rudra Jikadra";
+				TargetAttributes = {
+					730DB2F01FDAB0FA00FEA694 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 730DB2EC1FDAB0FA00FEA694 /* Build configuration list for PBXProject "Custom Camera" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 730DB2E81FDAB0FA00FEA694;
+			productRefGroup = 730DB2F21FDAB0FA00FEA694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730DB2F01FDAB0FA00FEA694 /* Custom Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730DB2EF1FDAB0FA00FEA694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730DB2FF1FDAB0FA00FEA694 /* LaunchScreen.storyboard in Resources */,
+				730DB2FC1FDAB0FA00FEA694 /* Assets.xcassets in Resources */,
+				5277C4F028A2C98E00E8A0AF /* README.md in Resources */,
+				730DB2FA1FDAB0FA00FEA694 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9082D425CF7BDAC87E945564 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Custom Camera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C103ABB9E75A410A7E3435C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Custom Camera/Pods-Custom Camera-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YKPhotoCircleCrop/YKPhotoCircleCrop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YKPhotoCircleCrop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Custom Camera/Pods-Custom Camera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730DB2ED1FDAB0FA00FEA694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730DB2F71FDAB0FA00FEA694 /* ViewController.swift in Sources */,
+				730DB2F51FDAB0FA00FEA694 /* AppDelegate.swift in Sources */,
+				522BC58A28A2AB9B005790BE /* LayerCustom.swift in Sources */,
+				522BC58C28A2C05D005790BE /* CustomScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		730DB2F81FDAB0FA00FEA694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730DB2F91FDAB0FA00FEA694 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		730DB2FD1FDAB0FA00FEA694 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730DB2FE1FDAB0FA00FEA694 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		730DB3011FDAB0FA00FEA694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		730DB3021FDAB0FA00FEA694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		730DB3041FDAB0FA00FEA694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F3F325A37CEB197AAF7DE2 /* Pods-Custom Camera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S94D73XQXZ;
+				INFOPLIST_FILE = "Custom Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.customcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		730DB3051FDAB0FA00FEA694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748FEDF7EEBBAC965BF9247B /* Pods-Custom Camera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S94D73XQXZ;
+				INFOPLIST_FILE = "Custom Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.customcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730DB2EC1FDAB0FA00FEA694 /* Build configuration list for PBXProject "Custom Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730DB3011FDAB0FA00FEA694 /* Debug */,
+				730DB3021FDAB0FA00FEA694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730DB3031FDAB0FA00FEA694 /* Build configuration list for PBXNativeTarget "Custom Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730DB3041FDAB0FA00FEA694 /* Debug */,
+				730DB3051FDAB0FA00FEA694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730DB2E91FDAB0FA00FEA694 /* Project object */;
+}
