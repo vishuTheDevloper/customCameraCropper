@@ -27,7 +27,8 @@ class ViewController: UIViewController {
         setupInputOutput()
         setupPreviewLayer()
         startRunningCaptureSession()
-    
+        
+    // Changes Done Here For Testing
     }
     
     
