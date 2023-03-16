@@ -33,6 +33,10 @@ class ViewController: UIViewController {
         startRunningCaptureSession()
         startRunningCaptureSession()
         startRunningCaptureSession()
+        
+        setupInputOutput()
+        setupPreviewLayer()
+        startRunningCaptureSession()
     }
     
     
