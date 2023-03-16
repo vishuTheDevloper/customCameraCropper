@@ -34,6 +34,12 @@ class ViewController: UIViewController {
     
     func setupCaptureSession() {
         captureSession.sessionPreset = AVCaptureSession.Preset.photo
+        
+        
+        customPreview.isUserInteractionEnabled = false
+        setupCaptureSession()
+        setupDevice()
+        
     }
     
     func setupDevice() {
