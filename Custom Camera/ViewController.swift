@@ -28,17 +28,7 @@ class ViewController: UIViewController {
         setupPreviewLayer()
         startRunningCaptureSession()
         
-    // Changes Done Here For Testing
-        
-        startRunningCaptureSession()
-        startRunningCaptureSession()
-        startRunningCaptureSession()
-        customPreview.isUserInteractionEnabled = false
-        setupCaptureSession()
-        setupDevice()
-        setupInputOutput()
-        setupPreviewLayer()
-        startRunningCaptureSession()
+  
     }
     
     
