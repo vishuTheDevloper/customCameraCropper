@@ -33,6 +33,12 @@ class ViewController: UIViewController {
         startRunningCaptureSession()
         startRunningCaptureSession()
         startRunningCaptureSession()
+        customPreview.isUserInteractionEnabled = false
+        setupCaptureSession()
+        setupDevice()
+        setupInputOutput()
+        setupPreviewLayer()
+        startRunningCaptureSession()
     }
     
     
