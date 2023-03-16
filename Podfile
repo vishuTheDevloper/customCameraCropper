@@ -7,4 +7,6 @@ target 'Custom Camera' do
 
   # Pods for Custom Camera
 pod 'YKPhotoCircleCrop', '~> 1.3'
+  pod 'YKPhotoCircleCrop', '~> 1.3'
+  
 end
