@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         startRunningCaptureSession()
         
     // Changes Done Here For Testing
+        
+        startRunningCaptureSession()
+        startRunningCaptureSession()
+        startRunningCaptureSession()
     }
     
     
