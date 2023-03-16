@@ -34,9 +34,7 @@ class ViewController: UIViewController {
     
     func setupCaptureSession() {
         captureSession.sessionPreset = AVCaptureSession.Preset.photo
-        setupInputOutput()
-        setupPreviewLayer()
-        startRunningCaptureSession()
+
         
         
     }
